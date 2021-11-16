@@ -34,6 +34,7 @@ predictModel(svc)
 neigh = KNeighborsClassifier(n_neighbors=3)
 predictModel(neigh)
 
+
 #random forest classifier
 randomF = RandomForestClassifier(max_depth=2, random_state=0)
 predictModel(randomF)
